@@ -5,7 +5,7 @@ import java.math.RoundingMode;
 import java.security.SecureRandom;
 
 // FIXME: Address/justify review comments
-// TODO: Should be able to reuse the same payment system in another county/region with different tax percentage.
+// TODO: Can we add way to discount (say flat 10% for few random people) ?
 public class Payment {
     public static final SecureRandom RANDOM = new SecureRandom();
     // 1 = 100%
@@ -38,3 +38,20 @@ public class Payment {
 
 // 1- Unable to use calculateRefund() from another class com.finance.* ?
 // 2- Why is BigDecimal used here, explain or let's not use it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TODO: Should be able to reuse the same payment system in another county/region with different tax percentage.
